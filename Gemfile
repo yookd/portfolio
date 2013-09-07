@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
 
 gem 'rails', '4.0.0'
 gem 'pg'
@@ -13,6 +14,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'angularjs-rails'
+
+gem 'rails_12factor'
 
 group :doc do
   gem 'sdoc', require: false
