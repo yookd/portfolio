@@ -1,0 +1,46 @@
+header {
+  color: $font_white;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  @include font-face;
+
+  #logo {
+    float: left;
+
+    h1 {
+      margin-bottom: 1%;
+
+      a {
+        display: block;
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+
+  nav {
+    display: inline-block;
+    float: right;
+
+    ul {
+      li {
+        font-size: 1.3em;
+        font-weight: 100;
+
+        span {
+          color: #fdff7e;
+        }
+
+        a {
+          color: white;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

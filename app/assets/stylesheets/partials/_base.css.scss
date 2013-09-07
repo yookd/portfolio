@@ -1,0 +1,25 @@
+/******************************************************************************/
+//
+// _base.css.scss
+//
+// The base stylesheet sets a couple of global variables and loads up all of the
+// Sass modules. Again modules are not allowed to contain anything that would
+// cause CSS output when importing.
+//
+/******************************************************************************/
+
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+@mixin font-face {
+  font-family: "Brandon Grotesque";
+  src: url("/assets/fonts/Brandon_reg.otf");
+}
+
+$base_font_family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
+$base_font_weight: $light;
+$base_font_size: 13px;
+
+@import "modules/all";

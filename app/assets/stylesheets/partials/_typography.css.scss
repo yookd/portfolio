@@ -1,0 +1,40 @@
+/******************************************************************************/
+//
+// Typography
+//
+/******************************************************************************/
+
+body {
+  font-family: $base_font_family;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: 0px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.7em;
+  letter-spacing: 0px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.7em;
+  letter-spacing: 0px;
+  margin: 20px 0;
+  font-weight: normal;
+}
+
+p {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
