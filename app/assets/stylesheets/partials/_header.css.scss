@@ -47,15 +47,17 @@ header {
         display: inline;
 
         span {
-          color: #fdff7e;
+          // color: #fdff7e;
+          color: #000000;
         }
 
         a {
           color: white;
           text-decoration: none;
+          padding-bottom: 0.1%;
 
           &:hover {
-            text-decoration: underline;
+            border-bottom: 3px solid #FFFFFF;
           }
         }
 
