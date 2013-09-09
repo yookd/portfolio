@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
-  <title>Portfolio</title>
+  <title>David Yoo</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
   <div id="main">
-    <div class="container">
+    <div id="container">
       <%= render 'layouts/header' %>
-      <%= yield %>
+      <div id="content">
+        <%= yield %>
+      </div>
       <%= render 'layouts/footer' %>
     </div>
   </div>
