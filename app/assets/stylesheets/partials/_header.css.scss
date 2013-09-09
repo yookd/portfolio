@@ -47,8 +47,8 @@ header {
         display: inline;
 
         span {
-          // color: #fdff7e;
-          color: #000000;
+          color: #fdff7e;
+          // color: #000000;
         }
 
         a {
@@ -57,7 +57,7 @@ header {
           padding-bottom: 0.1%;
 
           &:hover {
-            border-bottom: 3px solid #FFFFFF;
+            border-bottom: 2px solid #FFFFFF;
           }
         }
 

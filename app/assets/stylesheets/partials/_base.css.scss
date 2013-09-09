@@ -18,6 +18,11 @@ $bold: 600;
   src: url("/assets/fonts/Brandon_reg.otf");
 }
 
+@mixin font-face-cicle {
+  font-family: "New Cicle";
+  src: url("/assets/fonts/New Cicle Fina.ttf");
+}
+
 $base_font_family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
 $base_font_weight: $light;
 $base_font_size: 13px;
